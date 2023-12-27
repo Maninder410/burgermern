@@ -68,7 +68,7 @@ const ConfirmOrder = () => {
       );
 
       const options = {
-        key: "rzp_test_RvbyUfMdfeVPIE",
+        key: "rzp_test_BMylHqVQ7kB5pD",
         amount: order.amount,
         currency: "INR",
         name: "MBA Burger Wala",
