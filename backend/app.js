@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import passport from "passport";
 import { errorMiddleware } from "./middlewares/errorMiddleware.js";
 import cors from "cors";
-
+//this is just for testing
 const app = express();
 export default app;
 dotenv.config({
