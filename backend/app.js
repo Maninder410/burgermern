@@ -7,6 +7,7 @@ import passport from "passport";
 import { errorMiddleware } from "./middlewares/errorMiddleware.js";
 import cors from "cors";
 //this is just for testing
+//hope this will work
 const app = express();
 export default app;
 dotenv.config({
