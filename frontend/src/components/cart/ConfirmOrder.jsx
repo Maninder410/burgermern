@@ -71,7 +71,7 @@ const ConfirmOrder = () => {
         key: "rzp_test_BMylHqVQ7kB5pD",
         amount: order.amount,
         currency: "INR",
-        name: "MBA Burger Wala",
+        name: "Rapid Crave",
         description: "Burger App",
         order_id: order.id,
         handler: function (response) {

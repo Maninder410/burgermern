@@ -10,15 +10,14 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>MBA Burger Wala</h4>
+          <h4>Rapid Crave</h4>
           <p>
-            We are MBA Burger Wala. The place for most tasty burgers on the
-            enitre earth.
+          Rapid Crave , Where Every Bite Tells a Flavorful Tale, Satisfy Your Cravings at the Speed of Deliciousness
           </p>
 
           <p>
-            Explore the various type of food and burgers. Click below to see the
-            menu
+          Embark on a Culinary Journey with an Array of Delectable Dishes and Mouthwatering Burgers! 
+          Dive into our Menu , Click Below to Indulge Your Tastebuds
           </p>
 
           <Link to="/">
@@ -31,11 +30,11 @@ const About = () => {
           <article>
             <div>
               <img src={me} alt="Founder" />
-              <h3>Abhishek Singh</h3>
+              <h3>Maninder Singh</h3>
             </div>
 
             <p>
-              I am Abhishek Singh, the founder of MBA Burger Wala. Affiliated to
+              I am Maninder Singh, the founder of Rapid Crave. Affiliated to
               God Taste...
             </p>
           </article>

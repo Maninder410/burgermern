@@ -19,14 +19,18 @@ const Home = () => {
     <>
       <section className="home">
         <div>
-          <motion.h1 {...options}>MBA Burger Wala</motion.h1>
+          <motion.h1 {...options} style={{
+            color:"white"
+          }}>Rapid Crave</motion.h1>
           <motion.p
             {...options}
             transition={{
               delay: 0.2,
             }}
-          >
-            Give yourself a tasty burger.
+            style={{
+              color:"white"
+            }}>
+             Where Hunger Meets Instant Satisfaction
           </motion.p>
         </div>
 

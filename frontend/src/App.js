@@ -39,6 +39,7 @@ import "./styles/table.scss";
 import "./styles/orderDetails.scss";
 import "./styles/dashboard.scss";
 import "./styles/about.scss";
+import Loader from "./components/layout/Loader";
 
 function App() {
   const dispatch = useDispatch();
@@ -108,6 +109,7 @@ function App() {
         </Route>
 
         <Route path="*" element={<NotFound />} />
+          <Route path = "/myloader" element = {<Loader/>}/>
       </Routes>
 
       <Footer />

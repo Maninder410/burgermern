@@ -1,8 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import burger from "../../assets/burger2.png";
+import toast from "react-hot-toast";
 
 const Contact = () => {
+  const submitHandler = (e)=>{
+e.preventDefault();
+toast.success("Message Sent");
+  }
   return (
     <section className="contact">
       <motion.form
@@ -22,7 +27,7 @@ const Contact = () => {
 
         <textarea placeholder="Message..." cols="30" rows="10"></textarea>
 
-        <button type="submit">Send</button>
+        <button type="submit" onClick={submitHandler}>Send</button>
       </motion.form>
 
       <motion.div
